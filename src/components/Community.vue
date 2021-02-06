@@ -40,4 +40,16 @@ export default {
     width: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  .left-side,
+  .right-side {
+    width: 100%;
+  }
+
+  .left-side {
+    margin-bottom: 1.67rem;
+    text-align: center;
+  }
+}
 </style>

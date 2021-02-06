@@ -107,4 +107,30 @@ footer {
     }
   }
 }
+
+@media (max-width: 576px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left-side,
+  .right-side {
+    text-align: center;
+    width: 100%;
+  }
+
+  .left-side .flex {
+    justify-content: center;
+  }
+
+  .right-side p {
+    margin: 8px auto;
+    width: max-content;
+  }
+
+  .sosmed {
+    justify-content: center;
+    margin: 8px auto;
+  }
+}
 </style>

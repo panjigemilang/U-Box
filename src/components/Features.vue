@@ -79,4 +79,26 @@ p.description {
     }
   }
 }
+
+@media (max-width: 768px) {
+  .features-container {
+    img.left-image {
+      width: 100%;
+    }
+
+    .lists-feature {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .features-container .lists-feature {
+    padding-left: 0;
+
+    p {
+      font-size: 0.87rem;
+    }
+  }
+}
 </style>

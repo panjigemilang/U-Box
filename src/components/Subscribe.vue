@@ -61,4 +61,26 @@ export default {
     margin-left: 16px;
   }
 }
+
+@media (max-width: 768px) {
+  .subscribe-container input {
+    width: 50%;
+  }
+}
+
+@media (max-width: 425px) {
+  .subscribe-container {
+    flex-direction: column;
+
+    input {
+      width: 100%;
+    }
+
+    button {
+      margin-top: 16px;
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+}
 </style>

@@ -127,6 +127,7 @@ h1.title {
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
 
 @media (min-width: 576px) {
@@ -150,6 +151,12 @@ h1.title {
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1.title {
+    font-size: 2.24rem;
   }
 }
 </style>

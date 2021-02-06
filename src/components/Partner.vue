@@ -59,4 +59,22 @@ export default {
     }
   }
 }
+
+@media (max-width: 998px) {
+  .sponsors .img-container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .sponsors {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
+    .img-container {
+      margin-right: 1.67rem;
+      width: 100%;
+    }
+  }
+}
 </style>

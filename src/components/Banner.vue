@@ -58,4 +58,10 @@ p {
     width: 60vw;
   }
 }
+
+@media (max-width: 576px) {
+  .img-container img {
+    width: 100vw;
+  }
+}
 </style>
