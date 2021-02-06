@@ -40,15 +40,27 @@ export default {
 
 html,
 body {
-  height: 100%;
   margin: 0;
   padding: 0;
-  width: 100%;
 }
 
 body {
+  height: 100%;
   font-family: "Product Sans";
   overflow-x: hidden;
+  width: 100%;
+
+  &::-webkit-scrollbar {
+    width: 0.25rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: white;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #4452fd;
+  }
 }
 
 button {
@@ -69,13 +81,20 @@ button {
   }
 }
 
-input {
-  border: 0;
+input:not([type="number"]):not([type="checkbox"]) {
+  border: 1px black solid;
+  padding: 8px 16px;
 
   &:focus {
-    background-color: white !important;
-    color: black !important;
+    border: 0;
     outline: 1px #949dff solid;
+  }
+}
+
+input[type="checkbox"] {
+  &:focus {
+    border: none;
+    outline: none;
   }
 }
 
@@ -94,6 +113,16 @@ h1.title {
 
 .text-center {
   text-align: center;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0;
+
+  label {
+    margin-bottom: 4px;
+  }
 }
 
 .flex {

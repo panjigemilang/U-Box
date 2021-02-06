@@ -36,6 +36,7 @@ export default {
 
   input {
     background-color: rgb(185, 185, 185);
+    border: 0;
     color: white;
     padding: 0.8rem;
     padding-left: 1.3rem;
@@ -47,6 +48,12 @@ export default {
 
     &:-moz-placeholder {
       color: white;
+    }
+
+    &:focus {
+      background-color: white !important;
+      color: black !important;
+      outline: 1px #949dff solid;
     }
   }
 

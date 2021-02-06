@@ -2,7 +2,9 @@
   <nav>
     <ul>
       <li class="logo">
-        <img src="@/assets/Logo.png" />
+        <router-link to="/">
+          <img src="@/assets/Logo.png" />
+        </router-link>
       </li>
       <div class="menu">
         <li>
@@ -19,9 +21,11 @@
         </li>
       </div>
       <li>
-        <button>
-          Login
-        </button>
+        <router-link to="login">
+          <button>
+            Login
+          </button>
+        </router-link>
       </li>
     </ul>
   </nav>
@@ -56,8 +60,6 @@ nav {
       padding: 1rem;
 
       &.logo {
-        pointer-events: none;
-
         img {
           width: 4rem;
         }

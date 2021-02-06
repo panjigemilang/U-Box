@@ -20,7 +20,7 @@
           </li>
         </ul>
         <p>
-          &copy; Copyright 2020. All Rights Reserved.
+          &copy; Copyright 2021. All Rights Reserved.
         </p>
       </div>
       <div class="right-side">
