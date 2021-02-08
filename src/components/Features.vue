@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="features-app container">
     <h1 class="title text-center">
       Features
     </h1>
@@ -83,6 +83,8 @@ p.description {
 @media (max-width: 768px) {
   .features-container {
     img.left-image {
+      max-height: 260px;
+      object-fit: contain;
       width: 100%;
     }
 

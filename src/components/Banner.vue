@@ -1,9 +1,9 @@
 <template>
-  <div class="container">
+  <div class="banner-app container">
     <div class="banner-text-container">
       <h1 class="title text-center">
-        Easy Online Learning Solutions <br />
-        for Anyone
+        Connecting Communities to a <br />
+        Brighter Future
       </h1>
       <p class="text-center">
         Provides offline access to online education platforms in near real time
@@ -61,6 +61,8 @@ p {
 
 @media (max-width: 576px) {
   .img-container img {
+    max-height: 187px;
+    object-fit: contain;
     width: 100vw;
   }
 }

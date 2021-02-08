@@ -6,16 +6,16 @@
           <img src="@/assets/Logo-reverse.png" />
         </div>
         <ul class="flex">
-          <li>
+          <li v-scroll-to="'.navbar-app'">
             Home
           </li>
-          <li>
-            Product
+          <li v-scroll-to="'.features-app'">
+            Features
           </li>
-          <li>
-            About Us
+          <li v-scroll-to="'.community-app'">
+            Road Map
           </li>
-          <li>
+          <li v-scroll-to="'.subscribe-app'">
             Contact
           </li>
         </ul>
@@ -76,6 +76,7 @@ footer {
     padding: 0;
 
     li {
+      cursor: pointer;
       list-style: none;
       margin-right: 16px;
     }

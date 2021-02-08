@@ -1,16 +1,16 @@
 <template>
-  <div class="container">
+  <div class="community-app container">
     <div class="flex">
       <div class="left-side">
         <h1 class="title">
-          Community
+          Road Map
         </h1>
         <p>
           Lorem Ipsum
         </p>
       </div>
       <div class="right-side">
-        <img src="@/assets/Community.jpg" />
+        <img src="@/assets/Roadmap.jpg" />
       </div>
     </div>
   </div>

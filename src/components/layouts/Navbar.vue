@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav class="navbar-app">
     <ul :class="nav ? 'show' : ''">
       <li class="logo">
         <router-link to="/">
@@ -11,16 +11,16 @@
         <span></span>
       </li>
       <div class="menu">
-        <li>
+        <li v-scroll-to="'.navbar-app'">
           Home
         </li>
-        <li>
-          Product
+        <li v-scroll-to="'.features-app'">
+          Features
         </li>
-        <li>
-          About Us
+        <li v-scroll-to="'.community-app'">
+          Roadmap
         </li>
-        <li>
+        <li v-scroll-to="'.subscribe-app'">
           Contact
         </li>
       </div>

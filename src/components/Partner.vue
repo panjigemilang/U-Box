@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="partner-app container">
     <h1 class="title text-center">
       Partners
     </h1>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container text-center">
+  <div class="subscribe-app container text-center">
     <h1 class="title">
       Be the first to know the <br />
       latest updates
