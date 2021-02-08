@@ -10,22 +10,7 @@
     </p>
     <div class="flex sponsors">
       <div class="img-container">
-        <img src="@/assets/microsoft-logos-png-images-free-download-22 1.png" />
-      </div>
-      <div class="img-container">
-        <img src="@/assets/Coca-Cola-Logo 1.png" />
-      </div>
-      <div class="img-container">
-        <img src="@/assets/UNICEF_Logo 1.png" />
-      </div>
-      <div class="img-container">
-        <img src="@/assets/google.png" />
-      </div>
-      <div class="img-container">
         <img src="@/assets/Japan Hackathon.png" />
-      </div>
-      <div class="img-container">
-        <img src="@/assets/Kyoto.png" />
       </div>
     </div>
   </div>
@@ -51,7 +36,7 @@ export default {
   .img-container {
     margin-bottom: 16px;
     text-align: center;
-    width: 33.3333%;
+    width: 100%;
 
     img {
       object-fit: contain;
@@ -60,21 +45,10 @@ export default {
   }
 }
 
-@media (max-width: 998px) {
-  .sponsors .img-container {
-    width: 50%;
-  }
-}
-
 @media (max-width: 576px) {
   .sponsors {
     flex-wrap: nowrap;
     overflow-x: auto;
-
-    .img-container {
-      margin-right: 1.67rem;
-      width: 100%;
-    }
   }
 }
 </style>
